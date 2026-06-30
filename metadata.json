@@ -1,0 +1,6 @@
+{
+  "name": "Culinary Bistro Showcase",
+  "description": "An elegant, interactive single-page website for a gourmet culinary bistro featuring live menu filters, custom table reservations with interactive seating maps, and an educational web security guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

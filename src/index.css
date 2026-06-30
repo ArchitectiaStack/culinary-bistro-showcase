@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Satisfy&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-cursive: "Satisfy", cursive;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Warm Culinary Palette */
+  --color-bistro-cream: #FCF9F4;
+  --color-bistro-gold: #C5A880;
+  --color-bistro-red: #A62B2B;
+  --color-bistro-charcoal: #1F1B18;
+  --color-bistro-olive: #5B6D54;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bistro-cream);
+    color: var(--color-bistro-charcoal);
+    font-family: var(--font-sans);
+  }
+}
+
